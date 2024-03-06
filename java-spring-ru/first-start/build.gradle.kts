@@ -44,12 +44,3 @@ tasks.test {
     }
 }
 
-repositories {
-    maven {
-        url = uri("https://artifactory.raiffeisen.ru/artifactory/repo1/")
-        credentials {
-            username = System.getProperty("artifactory_user")
-            password = System.getProperty("artifactory_password")
-        }
-    }
-}
